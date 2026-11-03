@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pulse — one simple workspace to plan smarter, focus deeper, and bring your team's ideas to life." />
+  <title>Pulse — Make space for your best work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="Pulse home"><span class="brand-mark">P</span>PULSE</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#features">Features</a><a href="#workflow">How it works</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a>
+        <a class="button button-small" href="#contact">Get started <span aria-hidden="true">→</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="workflow">
+      <span class="eyebrow">✦ &nbsp; PRODUCTIVITY, REIMAGINED</span>
+      <h1>Make space for<br class="desktop-break"> your <span>best work.</span></h1>
+      <p class="hero-copy">One simple workspace to plan smarter, focus deeper,<br class="desktop-break"> and bring your team's ideas to life.</p>
+      <div class="hero-actions"><a class="button" href="#contact">Start for free <span aria-hidden="true">→</span></a><a class="button button-light" href="#features">Explore features</a></div>
+      <div class="dashboard" aria-label="Illustrative Pulse workspace dashboard">
+        <div class="window-bar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>Workspace overview</span></div>
+        <div class="dashboard-body">
+          <aside class="sidebar"><small>WORKSPACE</small><a class="active" href="#workflow">▦ &nbsp; Overview</a><a href="#features">▤ &nbsp; Projects</a><a href="#features">✓ &nbsp; Tasks</a><a href="#contact">◷ &nbsp; Calendar</a></aside>
+          <div class="dash-main"><h3>Good morning, Alex <span aria-hidden="true">👋</span></h3><p class="muted">Here's what's happening today.</p>
+            <div class="stats"><article><small>Tasks done</small><strong>18</strong><span class="positive">↗ 12%</span></article><article><small>In progress</small><strong>07</strong><span class="positive">On track</span></article><article><small>Focus time</small><strong>4.2h</strong><span class="positive">+ 30m</span></article></div>
+            <div class="task-panel"><h4>Today's priorities</h4><p><span class="check">✓</span> Design system review</p><p><span class="check">✓</span> Team sync at 2:30 PM</p><p><span class="check">○</span> Ship landing page</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container"><div class="section-heading"><span class="eyebrow">BUILT FOR YOUR FLOW</span><h2>Everything you need to<br class="desktop-break"> move forward.</h2><p>Powerful tools. Delightfully simple.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon lavender" aria-hidden="true">✦</div><h3>Focus without friction</h3><p>Organize your day around what matters most. Keep distractions out and momentum in.</p><a href="#contact" aria-label="Learn about focus tools">Learn more →</a></article>
+          <article class="feature-card"><div class="feature-icon mint" aria-hidden="true">◈</div><h3>See the big picture</h3><p>Turn scattered thoughts into clear plans with a workspace that makes priorities obvious.</p><a href="#contact" aria-label="Learn about planning tools">Learn more →</a></article>
+          <article class="feature-card"><div class="feature-icon peach" aria-hidden="true">↗</div><h3>Move together</h3><p>Keep your team aligned, share progress, and make collaboration feel effortless.</p><a href="#contact" aria-label="Learn about collaboration tools">Learn more →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="pricing"><div class="container contact-inner" id="contact">
+      <div><span class="eyebrow eyebrow-light">YOUR NEXT CHAPTER</span><h2>Ready to work<br>better?</h2><p>Join teams building their best work with Pulse.</p></div>
+      <form class="signup-form" id="signup-form"><label for="email">Get product updates</label><div class="input-row"><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required><button class="button" type="submit">Join list <span aria-hidden="true">→</span></button></div><p class="form-message" aria-live="polite"></p></form>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand brand-footer" href="#"><span class="brand-mark">P</span>PULSE</a><p>© <span id="year"></span> Pulse. Built for better work.</p><div><a href="#contact">Privacy</a><a href="#contact">Terms</a></div></div></footer>
+  <script src="script.js"></script>
+</body></html>
